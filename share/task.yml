@@ -125,10 +125,10 @@
       command: make system-requirements chdir={{ working_repo_dir }}
       sudo: True
 
-    - name: bootstrap pip on Debian
-      command: apt-get install -q -y python-pip
-      sudo: True
-      when: ansible_distribution in common_debian_variants
+    #- name: bootstrap pip on Debian
+    #  command: apt-get install -q -y python-pip
+    #  sudo: True
+    #  when: ansible_distribution in common_debian_variants
 
     - name: bootstrap pip on RHEL
       command: yum install -q -y python-pip
