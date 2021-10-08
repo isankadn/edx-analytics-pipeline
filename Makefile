@@ -7,7 +7,7 @@ uninstall:
 	python setup.py clean
 
 install: requirements uninstall
-	python setup.py install --force
+	python setup.py install --force --no-cache-dir
 
 bootstrap: uninstall
 	pip install -r requirements/base.txt --no-cache-dir
