@@ -176,7 +176,7 @@ def convert_args_to_extra_vars(arguments, uid):
     repos = {
         'pipeline': {
             'url': 'https://github.com/isankadn/edx-analytics-pipeline.git',
-            'branch': 'origin/master',
+            'branch': 'origin/isanka_dev',
             'dir_name': REMOTE_CODE_DIR_BASE
         }
     }
