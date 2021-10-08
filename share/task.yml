@@ -48,7 +48,7 @@
     - pipeline_repo_dir_name: repo
     - repos:
       - url: https://github.com/isankadn/edx-analytics-pipeline.git
-        branch: master
+        branch: isanka_dev
         dir_name: "{{ pipeline_repo_dir_name }}"
     - working_repo_dir: "{{ working_dir }}/{{ pipeline_repo_dir_name }}"
 
