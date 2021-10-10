@@ -198,7 +198,7 @@ def convert_args_to_extra_vars(arguments, uid):
     if arguments.secure_config_repo:
         repos['secure'] = {
             'url': arguments.secure_config_repo,
-            'branch': 'origin/release',
+            'branch': 'origin/isanka_dev',
             'dir_name': REMOTE_CONFIG_DIR_BASE
         }
         if arguments.secure_config_branch:
