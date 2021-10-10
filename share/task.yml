@@ -195,4 +195,6 @@
       copy: src=boto.cfg dest={{ working_repo_dir }}/.boto mode=644
 
     - name: show working directory
-      debug: var=working_repo_dir
+      debug: var=working_repo_dir 
+      
+#
